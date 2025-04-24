@@ -18,7 +18,7 @@ public class TCPServer {
                 String basePath = "C:/Users/Eyuel/working space/advanced-network-assignment/resources/"; // use absolute path here
                 String html = "<html><body>";
                 for (int i = 1; i <= 5; i++) {
-                    html += "<p>Line " + i + ": <img src='file:///" + basePath + "img" + i + ".jpg' width='100' height='100'></p>";
+                    html += "<p style=\"text-align: center;\">Line " + i + ": <img src='file:///" + basePath + "img" + i + ".jpg' width='100' height='100'></p>";
                 }
                 html += "</body></html>";
 
