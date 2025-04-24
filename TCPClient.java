@@ -24,7 +24,8 @@ public class TCPClient {
             JFrame frame = new JFrame("Web Page Viewer");
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
             frame.getContentPane().add(new JScrollPane(editorPane));
-            frame.setSize(400, 600);
+            frame.setSize(600, 900);
+            frame.setLocationRelativeTo(null);
             frame.setVisible(true);
 
         } catch (IOException e) {
