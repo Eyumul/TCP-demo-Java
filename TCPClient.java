@@ -28,6 +28,7 @@ public class ManualTCPClient {
             // Display response in GUI
             JTextArea textArea = new JTextArea(response.toString());
             textArea.setEditable(false);
+            
             JScrollPane scrollPane = new JScrollPane(textArea);
 
             JFrame frame = new JFrame("Manual HTTP GET Response");
