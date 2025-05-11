@@ -16,7 +16,7 @@ Follow these steps to set up the project locally on your machine.
 1. Open terminal
 2. Clone the project by running this code:
    ```sh
-   git clone git@github.com:Eyumul/TCP-demo-Java.git
+   git clone https://github.com/Eyumul/TCP-demo-Java.git
    ```
 3. Change the directory by running this code:
     ```sh
