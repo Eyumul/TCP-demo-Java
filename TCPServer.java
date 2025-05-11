@@ -6,7 +6,7 @@ import java.nio.file.Files;
 public class TCPServer {
     public static void main(String[] args) {
         int port = 1234;
-        String basePath = "C:/Users/Eyuel/working_space/advanced-network-assignment/resources/";
+        String basePath = "resources/";
 
         // Array of topic objects
         Topic[] topics = {
